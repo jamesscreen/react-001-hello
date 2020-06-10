@@ -1,0 +1,22 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "Hello file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesscreen/react-001-hello.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jamesscreen/react-001-hello/issues"
+  },
+  "homepage": "https://github.com/jamesscreen/react-001-hello#readme",
+  "keywords": [
+    "hello"
+  ],
+  "author": "JamesScreen",
+  "license": "ISC"
+}
