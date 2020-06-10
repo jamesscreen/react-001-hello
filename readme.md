@@ -47,3 +47,37 @@ git push -u origin master
     - public
     - src
 
+5. Создать `.gitignore` и прописать в исключения:
+
+```
+node_modules
+dist
+```
+
+6. Добавить в public домашний файл index.html
+
+public - будет содержать все статические ресурсы
+
+```
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>React Starter</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <noscript>
+    You need to enable JavaScript to run this app.
+  </noscript>
+  <script src="../dist/bundle.js"></script>
+</body>
+
+</html>
+```
+
+Особое внимание стоит обратить на строку `<div id="root"></div>`, которое является корнем React приложения. А так же на `<script src="../dist/bundle.js"></script>`, которое скоро будет отображать "наше" React приложение.
+
